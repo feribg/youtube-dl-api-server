@@ -1,4 +1,4 @@
-application: youtube-dl
+application: youtube-dl-api
 
 version: 0-1
 runtime: python27

@@ -41,3 +41,9 @@ gae
 VENV*
 # Sphinx build directory
 docs/_build
+
+#pycharm
+.idea
+*.iml
+*.ipr
+*.iwm
