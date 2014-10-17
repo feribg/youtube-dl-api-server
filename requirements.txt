@@ -1,2 +1,2 @@
-youtube_dl >= 2014.08.10
+youtube_dl >= 2014.10.15
 flask

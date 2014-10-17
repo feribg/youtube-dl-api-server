@@ -5,6 +5,7 @@ import traceback
 import sys
 
 from flask import Flask, jsonify, request, Response, redirect
+from youtube_dl.version import __version__ as youtube_dl_version
 import youtube_dl
 
 from youtube_dl.utils import compat_urllib_parse
@@ -81,7 +82,7 @@ def info():
             result = flatten_result(result)
             key = 'videos'
         result ={
-            'youtube-dl.version': youtube_dl.__version__,
+            'youtube-dl.version': youtube_dl_version,
             'url': url,
             key: result,
         }
